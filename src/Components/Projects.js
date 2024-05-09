@@ -16,7 +16,7 @@ export default function Projects() {
     {
       id: 1,
       src: portfolio,
-      hosted: "https://e-commerce-taupe-six.vercel.app/",
+      hosted: "https://oyinabolaji.netlify.app/",
       live: "https://github.com/oyin-systems/oyin-portfolio",
       stack: "React, Tailwind CSS",
     },
@@ -88,7 +88,7 @@ export default function Projects() {
           <h2 className="text-4xl text-white font-bold font-heading lg:mb-5 mb-6 border-b-2 w-[160px] border-indigo-600 pb-2">
             Projects
           </h2>
-          <p className="text-base lg:text-xl text-justify mt-5 lg:mt-5 py-4">
+          <p className="text-base lg:text-xl text-justify mt-5 lg:mt-5 py-4 text-blue-500">
             These are some of my projects. I have built these with different
             technologies like HTML, CSS, JavaScript, React and Vue. Check them
             out:
