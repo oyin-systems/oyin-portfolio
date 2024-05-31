@@ -5,9 +5,9 @@ import weather from "../assets/projects/weather.png";
 import repo from "../assets/projects/repo.png";
 import counter from "../assets/projects/counter.png";
 import calculator from "../assets/projects/calculator.png";
-import google from "../assets/projects/google.png";
 import remote from "../assets/projects/remote.png";
-import music from "../assets/projects/music.png";
+import todo from "../assets/projects/todo.png";
+import advice from "../assets/projects/advice.png";
 import { FaLink } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
@@ -57,10 +57,10 @@ export default function Projects() {
     },
     {
       id: 7,
-      src: google,
-      hosted: "https://oyin-systems.github.io/Google-replica/",
-      live: "https://github.com/oyin-systems/Google-replica",
-      stack: "HTML, CSS",
+      src: todo,
+      hosted: "https://todoapp-wheat-six.vercel.app/",
+      live: "https://github.com/oyin-systems/todo",
+      stack: "React, TailwindCSS",
     },
     {
       id: 8,
@@ -71,10 +71,10 @@ export default function Projects() {
     },
     {
       id: 9,
-      src: music,
-      hosted: "https://oyin-systems.github.io/Music-website/",
-      live: "https://github.com/oyin-systems/Music-website",
-      stack: "HTML, CSS",
+      src: advice,
+      hosted: "https://advice-generator-lake-eta.vercel.app/",
+      live: "https://github.com/oyin-systems/advice-generator",
+      stack: "React, TailwindCSS",
     },
   ];
 
