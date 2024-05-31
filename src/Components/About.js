@@ -14,10 +14,11 @@ export default function About() {
           </h2>
 
           <p className="text-base lg:text-xl text-justify mt-5 lg:mt-10">
-            I am a frontend developer with a strong foundation in programming
-            languages such as HTML, CSS, JavaScript, and React. I understand how
-            a web application works, from the user interface (UI) that the user
-            sees and interacts with to the server-side logic.
+            I am a frontend developer with a strong foundation in HTML, CSS and
+            JavaScript. I have experience working with frameworks such as React,
+            Vue, and Tailwind CSS. I understand how a web application works,
+            from the user interface (UI) that the user sees and interacts with
+            to the server-side logic.
           </p>
           <p className="text-base lg:text-xl text-justify mt-3 lg:mt-5">
             I also have a good experience in Technical writing, by simplifying
