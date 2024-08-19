@@ -1,4 +1,7 @@
 import React from "react";
+import accessory from "../assets/projects/accessory.jpeg";
+import landing from "../assets/projects/landing.jpeg";
+import project from "../assets/projects/project-mgt.png"
 import portfolio from "../assets/projects/portfolio.png";
 import shoes from "../assets/projects/shoes.png";
 import weather from "../assets/projects/weather.png";
@@ -15,62 +18,83 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
+      src: accessory,
+      hosted: "https://accessory-den-wcqw.vercel.app/",
+      live: "https://github.com/oyin-systems/accessory-den",
+      stack: "NextJS, Tailwind CSS",
+    },
+    {
+      id: 2,
+      src: landing,
+      hosted: "https://healthtech-landing.netlify.app/",
+      live: "https://github.com/oyin-systems/ENCRYPTIX-landing-page",
+      stack: "HTML, CSS",
+    },
+    {
+      id: 3,
+      src: project,
+      hosted: "https://encryptix-project-management-tool.vercel.app/",
+      live: "https://github.com/oyin-systems/ENCRYPTIX-project-management-tool",
+      stack: "React, Tailwind CSS, Vite",
+    },
+    {
+      id: 4,
       src: portfolio,
       hosted: "https://oyinabolaji.netlify.app/",
       live: "https://github.com/oyin-systems/oyin-portfolio",
       stack: "React, Tailwind CSS",
     },
     {
-      id: 2,
+      id: 5,
       src: shoes,
       hosted: "https://e-commerce-taupe-six.vercel.app/",
       live: "https://github.com/oyin-systems/e-commerce",
       stack: "NextJS, Tailwind CSS",
     },
     {
-      id: 3,
+      id: 6,
       src: weather,
       hosted: "https://boisterous-axolotl-5947c5.netlify.app/",
       live: "https://github.com/oyin-systems/Weather-app",
       stack: "HTML, CSS, JavaScript",
     },
     {
-      id: 4,
+      id: 7,
       src: repo,
       hosted: "https://github-repo-pi.vercel.app/",
       live: "https://github.com/oyin-systems/Github-repo",
       stack: "VueJS, TailwindCSS",
     },
     {
-      id: 5,
+      id: 8,
       src: counter,
       hosted: "https://vue-counter-3rd.netlify.app/",
       live: "https://github.com/oyin-systems/vue-counter",
       stack: "VueJS, TailwindCSS",
     },
     {
-      id: 6,
+      id: 9,
       src: calculator,
-      hosted: "https://vermillion-maamoul-86bca5.netlify.app/",
-      live: "https://github.com/oyin-systems/deployment_calculator",
+      hosted: "https://encryptix-calculator.netlify.app/",
+      live: "https://github.com/oyin-systems/ENCRYPTIX-calculator",
       stack: "HTML, CSS, JavaScript",
     },
     {
-      id: 7,
+      id: 10,
       src: todo,
       hosted: "https://todoapp-wheat-six.vercel.app/",
       live: "https://github.com/oyin-systems/todo",
       stack: "React, TailwindCSS",
     },
     {
-      id: 8,
+      id: 11,
       src: remote,
       hosted: "https://oyin-systems.github.io/Remote-work/",
       live: "https://github.com/oyin-systems/Remote-work",
       stack: "HTML, CSS",
     },
     {
-      id: 9,
+      id: 12,
       src: advice,
       hosted: "https://advice-generator-lake-eta.vercel.app/",
       live: "https://github.com/oyin-systems/advice-generator",

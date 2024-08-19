@@ -13,7 +13,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={25} className="text-white" />
         </>
       ),
-      href: "https://www.linkedin.com/in/oyindamola-abolaji-aba572224/",
+      href: "https://www.linkedin.com/in/oyindamola-abolaji/",
       style: "rounded-tr-md",
     },
     {
@@ -50,7 +50,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={25} className="text-white" />
         </>
       ),
-      href: "/resume.pdf",
+      href: "https://drive.google.com/file/d/1pnoKHgEL4s2eep5OS648JbnSPtIpzzI7/view?usp=sharing",
       style: "rounded-br-md",
       download: true,
     },
